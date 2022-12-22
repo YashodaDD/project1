@@ -9,7 +9,7 @@ const HomeFC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{count} </Text>
-
+      <Text>HELLO WORLD</Text>
       <View
         style={{flexDirection: 'row', backgroundColor: 'yellow', paddding: 10}}>
         <TouchableOpacity
