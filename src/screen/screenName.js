@@ -4,7 +4,7 @@ import React from 'react';
 const screenName = () => {
   return (
     <SafeAreaView>
-      <Image style={styles.image} source={require('./src/abc.jpg')} />
+      <Text>my name</Text>
     </SafeAreaView>
   );
 };
