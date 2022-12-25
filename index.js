@@ -9,5 +9,5 @@ import Assignment from './src/ASSIGNMENT';
 import HomeCC from './src/Home/HomeCC';
 import HomeFC from './src/HomeFunctional/HomeFC';
 import screen from './src/screen/screenName';
-
-AppRegistry.registerComponent(appName, () => Assignment);
+import lesson2 from './src/lesson2';
+AppRegistry.registerComponent(appName, () => lesson2);
