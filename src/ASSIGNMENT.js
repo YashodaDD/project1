@@ -34,23 +34,23 @@ const Assignment = () => {
     // }
 
     const marks = 75;
-     75 -100 -> A
-     65 - 75 -> B
-     55 - 65 ->C
-     35 - 55 -> S
-35 - 0  => W
-
-const marks = 60;
-if (marks => 75) {
-  console.log('A');
-} else if (marks => 65) {
-  console.log('b');
-} else if (marks => 55) {
-  console.log('S');
-} else (marks => 35) {
-  console.log('w');
-}
-      };
+    // 75 -> A
+    // 65 - 75 -> B
+    // 55 - 65 -> C
+    // 35 - 55 -> s
+    // 35 - W
+    if (marks >= 75) {
+      console.log('A');
+    } else if (marks >= 65) {
+      console.log('B');
+    } else if (marks >= 55) {
+      console.log('C');
+    } else if (marks >= 35) {
+      console.log(S);
+    } else {
+      console.log(W);
+    }
+  };
 
   return (
     <SafeAreaView style={styles.container}>
