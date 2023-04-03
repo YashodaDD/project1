@@ -12,23 +12,29 @@ import {
 const DATA = [
   {
     id: 1,
-    title: 'First Item',
+    title: 'BANANA',
   },
   {
     id: 2,
-    title: 'Second Item',
+    title: 'APPLE',
   },
   {
     id: 3,
-    title: 'Third Item',
+    title: 'ORANGE',
+  },
+  {
+    id: 4,
+    title: 'Pine Apple',
   },
 ];
 
 const lesson2 = () => {
+  const [listData, setlistData] = React.useState(DATA);
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        data={DATA}
+        //   12 MADE A array and passed to here,
+        data={listData}
         renderItem={({item}) => (
           <TouchableOpacity style={styles.item}>
             <Text style={styles.item}>{item.title}</Text>
